@@ -70,3 +70,8 @@ button {
     align-items: center;
     height: 200px;
 }
+#container_principale {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+}
