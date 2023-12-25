@@ -4,74 +4,29 @@ body {
     display: block;
     margin: 0;
 }
-nav {
-    justify-content: right;
-    display: flex;
-    background: #e8e8e8;
-}
-nav a:hover{ /* tous liens lors du survol dans la balise nav */
-    background-color: #A9A9A9; /* couleur de fond */
-    padding: 10px; 
 
-}
-nav a {
-    padding: 10px;
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    transition-duration: 0.5s;
-    border-radius: 30px;
-} 
-img {
-    width: 30%;
+.text-center{
+    margin-top: 10%;
 }
 
-button {
-    padding: 15px 25px;
-    border: unset;
-    border-radius: 15px;
-    color: #212121;
-    z-index: 1;
-    background: #e8e8e8;
-    position: relative;
-    font-weight: 1000;
-    font-size: 17px;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms;
-    overflow: hidden;
-   }
-   
-   button::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    background-color: #212121;
-    z-index: -1;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms
-   }
-   
-   button:hover {
-    color: #e8e8e8;
-   }
-   
-   button:hover::before {
-    width: 100%;
-   }
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-}
 #container_principale {
     text-align: center;
     margin-top: 10%;
     font-size: 20px;
+}
+.justify-content-center {
+    margin-top: 50px !important;
+}
+.bg_image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/assets/img/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    height: 100vh;
+}
+p {
+    color: white;
+}
+.card {
+    margin: 10px;
 }
