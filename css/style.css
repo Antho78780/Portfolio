@@ -1,24 +1,17 @@
-body {
-    font-family: Arial;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(/assets/img/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+#carouselExample img {
+    width: 125px;
+    height: 125px;
+    padding: 20px;
 }
 
-.text-center{
-    margin-top: 10%;
+#carouselExample{
+    width: 50%;
+    margin: auto;
 }
-
-#container_principale {
-    text-align: center;
-    margin-top: 10%;
-    font-size: 20px;
+.carousel-inner{
+    width: 60% !important;
+    margin: auto;
 }
-
-p {
-    color: white;
-}
-.card {
-    margin: 10px;
+.active, .nav-link:hover{
+    color: #0D6EFD;
 }
