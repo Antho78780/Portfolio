@@ -5,107 +5,198 @@
         <link href="/css/style.css" rel="stylesheet" type="text/css">
         <script src="https://kit.fontawesome.com/1a7b1ecd7e.js" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-                <div class="container-fluid">
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#projets">Projets</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <div class="text-center fs-3">
-                <p>Salut je m'appelle Anthony Audrain</p>
-                <p>je suis développeur d'applications python et developpeur web</p>
-            </div>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <span class="fs-4">Mon Portfolio</span>
+              </a>
+        
+              <ul class="nav nav-pills" id="container_header">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Accueil</a></li>
+                <li class="nav-item"><a href="#projets" class="nav-link">Projets</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">à propos</a></li>
+              </ul>
+            </header>
         </div>
-        <div id="projets">
-            <h1 class="text-center">Présentation de mes projets</h1>
+        <div class="container">
             <div class="row justify-content-center">
-                <div class="card " style="width: 18rem;">
-                    <img src="/assets/img/P13.GIF" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Créez une API sécurisée RESTful en utilisant Django REST</h5>
-                        <p class="card-text">Voici un exemple de mon projet qui consiste à créer le back-end du site web</p>
-                        <a href="projet.html" class="btn btn-primary">En savoirs plus</a>
-                    </div>
+              <div class="col-lg-6 text-center">
+                <h2>Je suis Anthony Audrain un développeur d'application python et développeur web</h2>
+                <p>Blanditiis praesentium aliquam illum tempore incidunt debitis dolorem magni est deserunt sed qui libero. Qui voluptas amet.</p>
+                <a href="https://docs.google.com/document/d/1hBRxkxM0HdJP5mujQjtqOckfEWeepqrjU-R_cOmQKgQ/edit" class="btn-get-started">Voir mon cv</a>
+              </div>
+            </div>
+          </div>
+        <h1 class="text-center">Je travaille avec...</h1>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets/img/imgs_logo_language/JavaScript.png">
+                    <img src="../assets/img/imgs_logo_language/python.png">
+                    <img src="../assets/img/imgs_logo_language/Vue..png">
+                    <img src="../assets/img/imgs_logo_language/django.png">
                 </div>
-                <div class="card " style="width: 18rem;">
-                    <img src="/assets/img/p12.GIF" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Développez une architecture back-end sécurisée avec Python et SQL</h5>
-                        <p class="card-text">Voici un exemple de mon projet qui consiste à créer une base de donnée SQL</p>
-                        <a href="projet.html" class="btn btn-primary">En savoirs plus</a>
-                    </div>
-                </div>
-                <div class="card " style="width: 18rem;">
-                    <img src="/assets/img/P7.GIF" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Résolvez des problèmes en utilisant des algorithmes en Python</h5>
-                        <p class="card-text">Voici un exemple de mon projet qui consiste à créer an algorithme en utilisant python</p>
-                        <a href="projet.html" class="btn btn-primary">En savoirs plus</a>
-                    </div>
-                </div>
-                <div class="card " style="width: 18rem;">
-                    <img src="/assets/img/P6.GIF" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Développez une interface utilisateur pour une application web Python</h5>
-                        <p class="card-text">Voici un exemple de mon projet qui consiste à créer le back-end du site web</p>
-                        <a href="projet.html" class="btn btn-primary">En savoirs plus</a>
-                    </div>
-                </div>
-                <div class="card " style="width: 18rem;">
-                    <img src="/assets/img/P6.GIF" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Développez une interface utilisateur pour une application web Python</h5>
-                        <p class="card-text">Voici un exemple de mon projet qui consiste à créer le back-end du site web</p>
-                        <a href="projet.html" class="btn btn-primary">En savoirs plus</a>
-                    </div>
-                </div>
-                <div class="card " style="width: 18rem;">
-                    <img src="/assets/img/P6.GIF" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Développez une interface utilisateur pour une application web Python</h5>
-                        <p class="card-text">Voici un exemple de mon projet qui consiste à créer le back-end du site web</p>
-                        <a href="projet.html" class="btn btn-primary">En savoirs plus</a>
-                    </div>
-                </div>
-                <div class="card " style="width: 18rem;">
-                    <img src="/assets/img/P6.GIF" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Développez une interface utilisateur pour une application web Python</h5>
-                        <p class="card-text">Voici un exemple de mon projet qui consiste à créer le back-end du site web</p>
-                        <a href="projet.html" class="btn btn-primary">En savoirs plus</a>
-                    </div>
-                </div>
-                <div class="card " style="width: 18rem;">
-                    <img src="/assets/img/P6.GIF" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Développez une interface utilisateur pour une application web Python</h5>
-                        <p class="card-text">Voici un exemple de mon projet qui consiste à créer le back-end du site web</p>
-                        <a href="projet.html" class="btn btn-primary">En savoirs plus</a>
-                    </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/imgs_logo_language/react.svg">
+                    <img src="../assets/img/imgs_logo_language/css.png">
+                    <img src="../assets/img/imgs_logo_language/html.png">
+                    <img src="../assets/img/imgs_logo_language/node.png">
                 </div>
             </div>
-            <div class="card text-center" id="contact">
-                <div class="card-body">
-                  <h5 class="card-title text-danger">Contactez moi</h5>
-                  <p class="text-primary">Mail: Anthonyaud78@gmail.com</p>
-                  <p class="text-primary">Tel: 0660645241</p>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="album py-5 bg-body-tertiary" id="projets">
+            <h1 class="text-center text-grey">Projets</h1>
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../assets/img/p12.GIF" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../assets/img/p12.GIF" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../assets/img/p12.GIF" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../assets/img/p12.GIF" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../assets/img/p12.GIF" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../assets/img/p12.GIF" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../assets/img/p12.GIF" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../assets/img/p12.GIF" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></img>
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../assets/img/p12.GIF" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></img>
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="container" id="contact">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <div>
+                    <span class="mb-3 mb-md-0 text-body-secondary">Contactez moi: </span>
+                    <p>E-mail: Anthonyaud78@gmail.com</p>
+                    <p>Tel: 0660645241</p>
+                </div>
+              </div>
+            </footer>
         </div>
+        <script src="../javascript.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     </body>
 </html>
