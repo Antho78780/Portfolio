@@ -1,17 +1,34 @@
-#carouselExample img {
-    width: 125px;
-    height: 125px;
-    padding: 20px;
-}
 
-#carouselExample{
+.active, .nav-link:hover{
+    color: #0D6EFD;
+}
+.margin-container{
+    margin-top: 10%;
+}
+.card2 img{
+    width: 48px;
+}
+.card2{
+    border: none !important;
+}
+.cards{
+    display: flex;
     width: 50%;
     margin: auto;
 }
-.carousel-inner{
-    width: 60% !important;
-    margin: auto;
+.container_language{
+    margin-top: 10%;
 }
-.active, .nav-link:hover{
-    color: #0D6EFD;
+.container_language h1{
+    margin-bottom: 5%;
+}
+a i {
+    font-size: 30px;
+}
+footer a{
+    padding: 5px;
+    color: black;
+}
+#projets{
+    margin-top: 10%;
 }
