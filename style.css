@@ -5,23 +5,7 @@
 .margin-container{
     margin-top: 10%;
 }
-.card2 img{
-    width: 48px;
-}
-.card2{
-    border: none !important;
-}
-.cards{
-    display: flex;
-    width: 50%;
-    margin: auto;
-}
-.container_language{
-    margin-top: 10%;
-}
-.container_language h1{
-    margin-bottom: 5%;
-}
+
 a i {
     font-size: 30px;
 }
@@ -31,4 +15,7 @@ footer a{
 }
 #projets{
     margin-top: 10%;
+}
+.projets h1 {
+    margin-bottom: 3%;
 }
