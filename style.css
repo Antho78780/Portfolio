@@ -2,11 +2,9 @@
 .active, .nav-link:hover{
     color: #0D6EFD;
 }
-.block-main{
-    background: url(assets/img/desk-arrangement-with-empty-notepad-with-copy-space.jpg);
-    height: 800px;
-    background-size: cover;
-    
+body{
+    background: url(assets/img/SL-011719-17920-65.jpg);
+   background-size: cover;
 }
 a i {
     font-size: 30px;
@@ -15,10 +13,10 @@ footer a{
     padding: 5px;
     color: black;
 }
-.projets h1 {
-    margin-bottom: 3%;
+
+.block-height-main{
+    height: 1000px;
 }
-.test {
-  position: relative;
-  top: 200px;
+.center-vh{
+    margin-top: 20vh
 }
