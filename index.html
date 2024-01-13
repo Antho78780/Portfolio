@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
     <body>
-		<div class="block-main">
+		<div class="container">
 			<div>
 				<header class="container d-flex flex-wrap justify-content-center py-3 mb-4">
 					<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
@@ -21,18 +21,43 @@
 					</ul>
 				</header>
 			</div>
-			<div>
+			<div class="container block-height-main">
 				<div class="d-flex justify-content-center">
-					<div class="col-lg-6 test">
-						<h1 class="display-1">Salut<img src="assets/img/vague.png"></h1>
-						<p>Je m'appelle Anthony Audrain, je suis un développeur d'application python et un développeur web FULL-STACK</p>
-						<a href="https://docs.google.com/document/d/1hBRxkxM0HdJP5mujQjtqOckfEWeepqrjU-R_cOmQKgQ/edit" class="btn-get-started">Voir mon cv</a>
+					<div class="col-lg-6 center-vh">
+            <h1 class="display-1">Salut</h1>
+						<h1 class="display-6">Je m'appelle Anthony Audrain, je suis un développeur d'application python et un développeur web FULL-STACK</h1>
+						<a href="https://docs.google.com/document/d/1hBRxkxM0HdJP5mujQjtqOckfEWeepqrjU-R_cOmQKgQ/edit" class="btn-get-started">Afficher mon cv</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<h2 class="text-center">Technologie utilisée:</h2>
-		<div class="container img_block">
+    <div class="container">
+      <h2 class="display-2 text-center">En savoirs plus sur moi</h2>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            J'ai commencer la programmation à mes 18 ans juste après l'obtention de mon BAC-PRO 
+            et c'est devenu mon métier.
+          </h2>
+        </div>
+        <div class="col-md-5">
+          <img src="assets/img/programming-background-collage.jpg" width="500">
+        </div>
+      </div>
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            J'ai aussi des connaissances dans le hardware, à l'age de 13 ans j'ai monté mon premier pc
+            mais ça reste une passion.
+          </h2>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="assets/img/38507.jpg" width="500">
+        </div>
+      </div>
+    </div>
+		<div class="container">
+      <h2 class="display-2 text-center">Technologie</h2>
 			<div class="row row-cols-1 row-cols-md-2 row-cols-md-3 row-cols-md-4 g-4" style="width: 50%; margin: auto;">
 				<div class="col">
 					<div class="card shadow-sm bg-light">
@@ -92,125 +117,124 @@
 			</div>
 		</div>
 	
-        <div class="container" id="projets">
-			<h1 class="text-center">Projets</h1>
-            <div class="container">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="assets/img/capture_algo.png" alt="">
-                    <div class="card-body bg-light">
-                      <p class="card-text">Pour ce projet j'ai créer un algorithme qui permet de maximiser les profits d'un client au bout de deux ans. J'ai utilisé python pour créer cette algrotithme</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a href="https://github.com/Antho78780/Resolvez-des-problemes-en-utilisant-des-algorithmes-en-Python"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
-                        </div>
+    <div class="container" id="projets">
+      <h2 class="display-2 text-center">Projets</h2>
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="assets/img/capture_algo.png" alt="" class="card-img-top bd-placeholder-img" width="100" height="225">
+                  <div class="card-body bg-light">
+                    <p class="card-text">Pour ce projet j'ai créer un algorithme qui permet de maximiser les profits d'un client au bout de deux ans. J'ai utilisé python pour créer cette algrotithme</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://github.com/Antho78780/Resolvez-des-problemes-en-utilisant-des-algorithmes-en-Python"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="assets/img/capture_djangoRest.png" alt="">
-                    <div class="card-body bg-light">
-                      <p class="card-text">J'ai utilisé Django Rest-Framework pour créer une API RestFull sécurisé</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a href="https://github.com/Antho78780/Creez-une-API-securiser-RESTful-en-utilisant-Django-REST"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
-                        </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="assets/img/capture_djangoRest.png" alt="" class="card-img-top bd-placeholder-img" width="100" height="225">
+                  <div class="card-body bg-light">
+                    <p class="card-text">J'ai utilisé Django Rest-Framework pour créer une API RestFull sécurisé</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://github.com/Antho78780/Creez-une-API-securiser-RESTful-en-utilisant-Django-REST"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="assets/img/Capture_django.png" alt="">
-                    <div class="card-body bg-light">
-                      <p class="card-text">Le projet que j'ai réalisé uniquement avec le framework Django</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a href="https://github.com/Antho78780/Developpez-une-application-Web-en-utilisant-Django"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
-                        </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="assets/img/Capture_django.png" alt="" class="card-img-top bd-placeholder-img" width="100" height="225">
+                  <div class="card-body bg-light">
+                    <p class="card-text">Le projet que j'ai réalisé uniquement avec le framework Django</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://github.com/Antho78780/Developpez-une-application-Web-en-utilisant-Django"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
                       </div>
                     </div>
                   </div>
                 </div>
-        
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="assets/img/Capture_algo.GIF" alt="">
-                    <div class="card-body bg-light">
-                      <p class="card-text">Pour ce projet j'ai développé une architecture back-end en utilisant Django ORM</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
-                        </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="assets/img/Capture_algo.GIF" alt="" class="card-img-top bd-placeholder-img" width="100" height="225">
+                  <div class="card-body bg-light">
+                    <p class="card-text">Pour ce projet j'ai développé une architecture back-end en utilisant Django ORM</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href=""><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="assets/img/capture_tournois.png" alt="">
-                    <div class="card-body bg-light">
-                      <p class="card-text">Ce projet à été réaliser uniquement en python, il consiste à gérer un tournoi d'echec dans un terminal</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a href="https://github.com/Antho78780/Developpez-un-programme-logiciel-en-Python"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
-                        </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="assets/img/capture_tournois.png" alt="" class="card-img-top bd-placeholder-img" width="100" height="225">
+                  <div class="card-body bg-light">
+                    <p class="card-text">Ce projet à été réaliser uniquement en python, il consiste à gérer un tournoi d'echec dans un terminal</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://github.com/Antho78780/Developpez-un-programme-logiciel-en-Python"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="assets/img/capture_hebergement.png">
-                    <div class="card-body bg-light">
-                      <p class="card-text">Mon tout premier site web en HTML et CSS qui consiste à créer un site d'hébergement</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a href="https://github.com/Antho78780/Transformez-une-maquette-en-site-web-avec-html-et-css"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
-                        </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="assets/img/capture_hebergement.png" class="card-img-top bd-placeholder-img" width="100" height="225">
+                  <div class="card-body bg-light">
+                    <p class="card-text">Mon tout premier site web en HTML et CSS qui consiste à créer un site d'hébergement</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://github.com/Antho78780/Transformez-une-maquette-en-site-web-avec-html-et-css"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
                       </div>
                     </div>
                   </div>
                 </div>
-        
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="assets/img/Capture_algo.GIF" alt="">
-                    <div class="card-body bg-light">
-                      <p class="card-text">Mon tout premier projet en Javascript qui consiste à créer un site E-commerce</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a href="https://github.com/Antho78780/Construisez-un-site-e-commerce-en-JavaScript"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
-                        </div>
+              </div>
+      
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="assets/img/Capture_algo.GIF" alt="" class="card-img-top bd-placeholder-img" width="100" height="225">
+                  <div class="card-body bg-light">
+                    <p class="card-text">Mon tout premier projet en Javascript qui consiste à créer un site E-commerce</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://github.com/Antho78780/Construisez-un-site-e-commerce-en-JavaScript"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow-sm">
-                   <img src="assets/img/Capture_algo.GIF" alt="">
-                    <div class="card-body bg-light">
-                      <p class="card-text">J'ai creér une application immobilière avec REACT</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a href="https://github.com/Antho78780/Creez-une-application-web-de-location-immobiliere-avec-React"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
-                        </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="assets/img/Capture_algo.GIF" alt="" class="card-img-top bd-placeholder-img" width="100" height="225">
+                  <div class="card-body bg-light">
+                    <p class="card-text">J'ai creér une application immobilière avec REACT</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://github.com/Antho78780/Creez-une-application-web-de-location-immobiliere-avec-React"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="assets/img/Capture_algo.GIF" alt="">
-                    <div class="card-body bg-light">
-                      <p class="card-text">J'ai utilisé une architecture modulaire pour mettre à l'echelle une application</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a href="https://github.com/Antho78780/Python-OC-Lettings-FR"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
-                        </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="assets/img/Capture_algo.GIF" alt="" class="card-img-top bd-placeholder-img" width="100" height="225">
+                  <div class="card-body bg-light">
+                    <p class="card-text">J'ai utilisé une architecture modulaire pour mettre à l'echelle une application</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://github.com/Antho78780/Python-OC-Lettings-FR"><button type="button" class="btn btn-sm btn-outline-secondary">Github</button></a>
                       </div>
                     </div>
                   </div>
@@ -218,7 +242,23 @@
               </div>
             </div>
           </div>
-        <script src="../javascript.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        </div>
+        <div class="container" id="contact">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <div class="col-md-4">
+              <h5 class="mb-3 mb-md-0">Contactez moi:</h5>
+              <div>
+                  <p>E-mail: anthonyaud78@gmail.com</p>
+                  <p>Tel: 0660645241</p>
+              </div>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <a href="https://github.com/Antho78780"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/anthony-audrain-832a5820b/"><i class="fa-brands fa-linkedin"></i></a>
+            </ul>
+          </footer>
+        </div>
+      <script src="../javascript.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     </body>
 </html>
