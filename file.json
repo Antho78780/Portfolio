@@ -1,0 +1,34 @@
+{
+    "projects":[
+        {
+            "text": "Pour ce projet j'ai créer un algorithme qui permet de maximiser les profits d'un client au bout de deux ans. J'ai utilisé des fonctions implémanté dans python comme iterTools.",
+            "image": "assets/img/imgs_projects/capture_algo.png",
+            "link": "https://github.com/Antho78780/Resolvez-des-problemes-en-utilisant-des-algorithmes-en-Python"
+        },
+        {
+            "text": "J'ai utilisé Django Rest-Framework pour créer une API RestFull sécurisé.Django REST framework est une boite à outil puissante et flexible pour créer des API web.",
+            "image": "assets/img/imgs_projects/capture_rest-framework.png",
+            "link": "https://github.com/Antho78780/Creez-une-API-securiser-RESTful-en-utilisant-Django-REST"
+        },
+        {
+            "text": "Ce projet consiste à créer un site web en Django. Sur le site web l'utilisateur doit avoir un compte pour accéder au site une fois connecter il peut créer des critiques,demander des critiques et s'abonner à d'autres utilisateurs.",
+            "image": "assets/img/imgs_projects/Capture_django.png",
+            "link": "https://github.com/Antho78780/Resolvez-des-problemes-en-utilisant-des-algorithmes-en-Python"
+        },
+        {
+            "text": "J'ai utilisé une architecture modulaire pour mettre à l'echelle une application",
+            "image": "assets/img/imgs_projects/capture_modulaire.png",
+            "link": "https://github.com/Antho78780/Python-OC-Lettings-FR"
+        },
+        {
+            "text": "J'ai créer un script qui permet de récupérer toutes les informations de tous les livres de chaque catégorie et de chaque page sur https://books.toscrape.com/ Il permet également de télécharger toutes les images de chaque livre.",
+            "image": "assets/img/imgs_projects/capture_script-book.png",
+            "link": "https://github.com/Antho78780/Creez-une-application-web-de-location-immobiliere-avec-React"
+        },
+        {
+            "text": "Mon tout premier projet en javascript qui consiste à créer le BACK-END et le FRONT-END d'un site web E-commerce. L'utilisateur peut mettre des articles dans son panier pour ensuite les acheter.",
+            "image": "assets/img/imgs_projects/capture_e-commerce",
+            "link": "https://github.com/Antho78780/Construisez-un-site-e-commerce-en-JavaScript"
+        }
+    ]
+}
