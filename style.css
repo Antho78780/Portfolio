@@ -5,21 +5,15 @@ footer a{
     padding: 5px;
     color: black;
 }
-
 .shadow-sm span, footer p{
     font-weight: bold;
 }
-
 .re-center{
     position: relative;
     bottom: 100px;
 }
 .featurette{
     margin-top: 10% !important;
-}
-.background_container{
-    background: url(https://img.freepik.com/photos-gratuite/systeme-html-pour-concept-site-web_23-2150376770.jpg?w=1380&t=st=1705426376~exp=1705426976~hmac=df2f92f52f2f21076e6f182291e34118100de0c7eae5029b60b995b8be2c9188);
-    background-size: cover;
 }
 .nav-pills a{
     color: white;
@@ -33,4 +27,14 @@ footer a{
 }
 a{
     text-decoration: none !important;
+}
+.container-fluid{
+    background: url(https://img.freepik.com/free-vector/stream-binary-code-design-vector_53876-161365.jpg?w=1380&t=st=1705438332~exp=1705438932~hmac=ed36c462e6595865c52ed1d22fa5ee4f688a989df4b3cbd1b0f1e1c00b59a37f);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.featurette img{
+    width: 90%;
 }
