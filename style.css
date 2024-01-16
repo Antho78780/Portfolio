@@ -1,11 +1,3 @@
-
-.active, .nav-link:hover{
-    color: #0D6EFD;
-}
-body{
-    background: url(images/background_screen.jpg);
-    background-size: cover;
-}
 a i {
     font-size: 30px;
 }
@@ -24,4 +16,21 @@ footer a{
 }
 .featurette{
     margin-top: 10% !important;
+}
+.background_container{
+    background: url(https://img.freepik.com/photos-gratuite/systeme-html-pour-concept-site-web_23-2150376770.jpg?w=1380&t=st=1705426376~exp=1705426976~hmac=df2f92f52f2f21076e6f182291e34118100de0c7eae5029b60b995b8be2c9188);
+    background-size: cover;
+}
+.nav-pills a{
+    color: white;
+}
+.nav-link:hover{
+    background-color: var(--bs-nav-pills-link-active-bg);
+    color: white !important;
+}
+.nav-pills li{
+    margin: 5px;
+}
+a{
+    text-decoration: none !important;
 }
