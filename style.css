@@ -8,19 +8,9 @@ footer a{
 .shadow-sm span, footer p{
     font-weight: bold;
 }
-.re-center{
-    position: relative;
-    bottom: 100px;
-}
+
 .featurette{
     margin-top: 10% !important;
-}
-.nav-pills a{
-    color: white;
-}
-.nav-link:hover{
-    background-color: var(--bs-nav-pills-link-active-bg);
-    color: white !important;
 }
 .nav-pills li{
     margin: 5px;
@@ -28,13 +18,13 @@ footer a{
 a{
     text-decoration: none !important;
 }
-.container-fluid{
-    background: url(https://img.freepik.com/free-vector/stream-binary-code-design-vector_53876-161365.jpg?w=1380&t=st=1705438332~exp=1705438932~hmac=ed36c462e6595865c52ed1d22fa5ee4f688a989df4b3cbd1b0f1e1c00b59a37f);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
-}
 .featurette img{
-    width: 90%;
+    width: 400px;
+}
+.nav-link:hover{
+    background-color: #0d6efd;
+    color: white !important;
+}
+.container-fluid{
+    height: 50vh;
 }
