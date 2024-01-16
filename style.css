@@ -14,9 +14,6 @@ footer a{
     color: black;
 }
 
-.block-height-main{
-    height: 100vh;
-}
 .shadow-sm span, footer p{
     font-weight: bold;
 }
