@@ -20,25 +20,8 @@ fetch("file.json")
         align-items-center"><div class="btn-group"><a href="${data["projects"][i]["link"]}" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">
         Github</button></a></div></div></div></div></div>`
         }
+        for (let i=0; i < data["languages"].length;i++) {
+            insert_language.innerHTML += `<div class="col"><div class="card shadow-sm bg-light"><img src="${data["languages"][i]["image"]}"><span class="text-center">${data["languages"][i]["text"]}</span></div></div>`
+        }
     })
-// async function displayProjects() {
-//     const response = await fetch("file:///C:/Users/Antho/Desktop/Portfolio/file.json");
-//     const article = await response.json();
-//     for (let i=0; i < article["projects"].length;i++) {
-//         insert_project.innerHTML += `<div class="col"><div class="card shadow-sm"><img src="${article["projects"][i]["image"]}" alt="" class="card-img-top bd-placeholder-img"
-//         width="100" height="225"><div class="card-body bg-light"><p class="card-text">${article["projects"][i]["text"]}</p><div class="d-flex justify-content-between
-//         align-items-center"><div class="btn-group"><a href="${article["projects"][i]["link"]}" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">
-//         Github</button></a></div></div></div></div></div>`
-//     }
-// }
-// async function displayLanguages() {
-//     const response = await fetch("file:///C:/Users/Antho/Desktop/Portfolio/file.json");
-//     const article = await response.json();
-//     for (let i=0; i < article["languages"].length;i++) {
-//         insert_language.innerHTML += `<div class="col"><div class="card shadow-sm bg-light"><img src="${article["languages"][i]["image"]}"><span class="text-center">${article["languages"][i]["text"]}</span></div></div>`
-//     }
-// }
-// displayProjects()
-// displayLanguages()
-
 
