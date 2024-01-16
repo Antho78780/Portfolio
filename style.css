@@ -4,7 +4,7 @@
 }
 body{
     background: url(assets/img/background_screen.jpg);
-   background-size: cover;
+    background-size: cover;
 }
 a i {
     font-size: 30px;
@@ -20,9 +20,10 @@ footer a{
 .center-vh{
     margin-top: 20vh
 }
-.featurette{
-    margin: 10%
-}
-.shadow-sm span{
+
+.shadow-sm span, footer p{
     font-weight: bold;
+}
+.margin-top{
+    margin-top: 10%;
 }
