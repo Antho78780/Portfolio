@@ -2,85 +2,85 @@
     "projects":[
         {
             "text": "Pour ce projet j'ai créer un algorithme qui permet de maximiser les profits d'un client au bout de deux ans. J'ai utilisé des fonctions implémanté dans python comme iterTools.",
-            "image": "assets/img/imgs_projects/capture_algo.png",
+            "image": "assets/img/imgsProjects/capture_algo.png",
             "link": "https://github.com/Antho78780/Resolvez-des-problemes-en-utilisant-des-algorithmes-en-Python"
         },
         {
             "text": "J'ai utilisé Django Rest-Framework pour créer une API RestFull sécurisé. Django REST framework est une boite à outil puissante et flexible pour créer des API web.",
-            "image": "assets/img/imgs_projects/capture_rest-framework.png",
+            "image": "assets/img/imgsProjects/capture_rest-framework.png",
             "link": "https://github.com/Antho78780/Creez-une-API-securiser-RESTful-en-utilisant-Django-REST"
         },
         {
             "text": "Ce projet consiste à créer un site web en Django. Sur le site web l'utilisateur doit avoir un compte pour accéder au site une fois connecter il peut créer des critiques, demander des critiques et s'abonner à d'autres utilisateurs.",
-            "image": "assets/img/imgs_projects/Capture_django.png",
+            "image": "assets/img/imgsProjects/Capture_django.png",
             "link": "https://github.com/Antho78780/Developpez-une-application-Web-en-utilisant-Django"
         },
         {
             "text": "Ce projet consiste à utiliser DJANGO-ORM pour développer une architecture BACK-END sécurisé. L'ORM de django signifie mapping d'objet relationel ça veut dire que je travaille plus en faisant des requetes SQL mais je travaille directement avec mes objets.",
-            "image": "assets/img/imgs_projects/capture_djangoRest.png",
+            "image": "assets/img/imgsProjects/capture_djangoRest.png",
             "link": "https://github.com/Antho78780/Developpez-une-architecture-back-end-s-curis-e-en-utilisant-Django-ORM"
         },
         {
             "text": "Ce projet consiste à gérer un tournoi d'echec uniquement dans un terminal, il a été réaliser uniquement en python.",
-            "image": "assets/img/imgs_projects/capture_tournois.png",
+            "image": "assets/img/imgsProjects/capture_tournois.png",
             "link": "https://github.com/Antho78780/Developpez-un-programme-logiciel-en-Python"
         },
         {
             "text": "Mon tout premier projet qui consiste à mettre en oeuvre un site web d'hébergement uniquement en HTML et CSS.",
-            "image": "assets/img/imgs_projects/capture_hebergement.png",
+            "image": "assets/img/imgsProjects/capture_hebergement.png",
             "link": "https://github.com/Antho78780/Transformez-une-maquette-en-site-web-avec-html-et-css"
         },
         {
             "text": "Mon tout premier projet en javascript qui consiste à créer le BACK-END et le FRONT-END d'un site web E-commerce.L'utilisateur peut mettre des articles dans son panier pour ensuite les acheter.",
-            "image": "assets/img/imgs_projects/capture_e-commerce.png",
+            "image": "assets/img/imgsProjects/capture_e-commerce.png",
             "link": "https://github.com/Antho78780/Construisez-un-site-e-commerce-en-JavaScript"
         },
         {
             "text": "J'ai créer un script qui permet de récupérer toutes les informations de tous les livres de chaque catégorie et de chaque page sur https://books.toscrape.com/ Il permet également de télécharger toutes les images de chaque livre.",
-            "image": "assets/img/imgs_projects/capture_script-book.png",
+            "image": "assets/img/imgsProjects/capture_script-book.png",
             "link": ""
         },
         {
             "text": "J'ai utilisé une architecture modulaire pour mettre à l'echelle une application.",
-            "image": "assets/img/imgs_projects/capture_modulaire.png",
+            "image": "assets/img/imgsProjects/capture_modulaire.png",
             "link": "https://github.com/Antho78780/Python-OC-Lettings-FR"
         }
     ],
     "languages":[
         {
-            "image": "assets/img/imgs_languages/html-5.png",
+            "image": "assets/img/imgsLanguages/html-5.png",
             "text": "HTML"
         },
         {
-            "image": "assets/img/imgs_languages/css-3.png",
+            "image": "assets/img/imgsLanguages/css-3.png",
             "text": "CSS"
         },
         {
-            "image": "assets/img/imgs_languages/javascript.png",
+            "image": "assets/img/imgsLanguages/javascript.png",
             "text": "Javascript"
         },
         {
-            "image": "assets/img/imgs_languages/python.png",
+            "image": "assets/img/imgsLanguages/python.png",
             "text": "Python"
         },
         {
-            "image": "assets/img/imgs_languages/react.png",
+            "image": "assets/img/imgsLanguages/react.png",
             "text": "React"
         },
         {
-            "image": "assets/img/imgs_languages/sql.png",
+            "image": "assets/img/imgsLanguages/sql.png",
             "text": "SQL"
         },
         {
-            "image": "assets/img/imgs_languages/vue.png",
+            "image": "assets/img/imgsLanguages/vue.png",
             "text": "Vue"
         },
         {
-            "image": "assets/img/imgs_languages/django.png",
+            "image": "assets/img/imgsLanguages/django.png",
             "text": "Django"
         },
         {
-            "image": "assets/img/imgs_languages/node.png",
+            "image": "assets/img/imgsLanguages/node.png",
             "text": "Node"
         }
     ]
