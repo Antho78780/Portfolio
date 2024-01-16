@@ -3,7 +3,7 @@
     color: #0D6EFD;
 }
 body{
-    background: url(assets/img/background_screen.jpg);
+    background: url(images/background_screen.jpg);
     background-size: cover;
 }
 a i {
@@ -15,15 +15,16 @@ footer a{
 }
 
 .block-height-main{
-    height: 1000px;
+    height: 100vh;
 }
-.center-vh{
-    margin-top: 20vh
-}
-
 .shadow-sm span, footer p{
     font-weight: bold;
 }
-.margin-top{
-    margin-top: 10%;
+
+.re-center{
+    position: relative;
+    bottom: 100px;
+}
+.featurette{
+    margin-top: 10% !important;
 }
