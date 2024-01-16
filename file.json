@@ -48,39 +48,39 @@
     ],
     "languages":[
         {
-            "image": "assets/img/imgsLanguages/html-5.png",
+            "image": "images/html-5.png",
             "text": "HTML"
         },
         {
-            "image": "assets/img/imgsLanguages/css-3.png",
+            "image": "images/css-3.png",
             "text": "CSS"
         },
         {
-            "image": "assets/img/imgsLanguages/javascript.png",
+            "image": "images/javascript.png",
             "text": "Javascript"
         },
         {
-            "image": "assets/img/imgsLanguages/python.png",
+            "image": "images/python.png",
             "text": "Python"
         },
         {
-            "image": "assets/img/imgsLanguages/react.png",
+            "image": "images/react.png",
             "text": "React"
         },
         {
-            "image": "assets/img/imgsLanguages/sql.png",
+            "image": "images/sql.png",
             "text": "SQL"
         },
         {
-            "image": "assets/img/imgsLanguages/vue.png",
+            "image": "images/vue.png",
             "text": "Vue"
         },
         {
-            "image": "assets/img/imgsLanguages/django.png",
+            "image": "images/django.png",
             "text": "Django"
         },
         {
-            "image": "assets/img/imgsLanguages/node.png",
+            "image": "images/node.png",
             "text": "Node"
         }
     ]
