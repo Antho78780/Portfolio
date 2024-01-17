@@ -31,3 +31,9 @@ a{
 body{
     background-color: rgba(var(--bs-tertiary-bg-rgb)) !important;
 }
+.fst-italic{
+    margin-bottom: 50px;
+}
+#insert_project .card img{
+   
+}
