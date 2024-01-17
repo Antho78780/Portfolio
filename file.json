@@ -22,7 +22,7 @@
         },
         {
             "text": "Ce projet consiste à gérer un tournoi d'echec uniquement dans un terminal, il a été réaliser uniquement en python.",
-            "image": "images/capture_tournois.png",
+            "image": "",
             "link": "https://github.com/Antho78780/Developpez-un-programme-logiciel-en-Python"
         },
         {
@@ -37,8 +37,8 @@
         },
         {
             "text": "J'ai créer un script qui permet de récupérer toutes les informations de tous les livres de chaque catégorie et de chaque page sur https://books.toscrape.com/ Il permet également de télécharger toutes les images de chaque livre.",
-            "image": "images/capture_script-book.png",
-            "link": ""
+            "image": "images/test.png",
+            "link": "https://github.com/Antho78780/ScriptBook"
         },
         {
             "text": "J'ai utilisé une architecture modulaire pour mettre à l'echelle une application.",
