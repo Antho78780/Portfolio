@@ -17,11 +17,12 @@ fetch("file.json")
         for (let i=0; i < data["projects"].length;i++) {
         insert_project.innerHTML += `<div class="col"><div class="card shadow-sm"><img src="${data["projects"][i]["image"]}" alt="" class="card-img-top bd-placeholder-img"
          width="100" height="225"><div class="card-body bg-light"><p class="card-text">${data["projects"][i]["text"]}</p><div class="d-flex justify-content-between
-        align-items-center"><div class="btn-group"><a href="${data["projects"][i]["link"]}" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">
+        align-items-center"><div class="btn-group"><a href="${data["projects"][i]["link"]}" target="_blank"><button type="button" class="btn btn-sm btn-primary">
         Github</button></a></div></div></div></div></div>`
         }
         for (let i=0; i < data["languages"].length;i++) {
-            insert_language.innerHTML += `<div class="col"><div class="card shadow-sm bg-light"><img src="${data["languages"][i]["image"]}"><span class="text-center">${data["languages"][i]["text"]}</span></div></div>`
+            insert_language.innerHTML += `<div class="card" style="width: 13rem;"><img src="${data["languages"][i]["image"]}" class="card-img-top" alt="..."><h5 class="card-title text-center">${data["languages"][i]["text"]}</h5>
+        </div>`
         }
     })
 
