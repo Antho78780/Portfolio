@@ -15,7 +15,7 @@ fetch("file.json")
     .then(res => res.json())
     .then(data => {
         for (let i=0; i < data["projects"].length;i++) {
-            insert_project.innerHTML += `<div class="col"><div class="card" style="width: 20rem;"><img class="card-img-top img-thumbnail" src="${data["projects"][i]["image"]}" 
+            insert_project.innerHTML += `<div class="col-md-4"><div class="card"><img class="card-img-top img-thumbnail" src="${data["projects"][i]["image"]}" 
             alt="Card image cap"><div class="card-body"><p class="card-text">${data["projects"][i]["text"]}</p><a href="${data["projects"][i]["link"]}" 
             class="btn btn-primary">Github</a></div></div></div>`
         }
