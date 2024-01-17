@@ -1,5 +1,6 @@
 a i {
     font-size: 30px;
+    color: grey;
 }
 footer a{
     padding: 5px;
@@ -9,9 +10,6 @@ footer a{
     font-weight: bold;
 }
 
-.featurette{
-    margin-top: 10% !important;
-}
 .nav-pills li{
     margin: 5px;
 }
@@ -23,8 +21,13 @@ a{
 }
 .nav-link:hover{
     background-color: #0d6efd;
+}
+.nav-link{
     color: white !important;
 }
-.container-fluid{
-    height: 50vh;
+.card{
+    margin: 10px;
+}
+body{
+    background-color: rgba(var(--bs-tertiary-bg-rgb)) !important;
 }
