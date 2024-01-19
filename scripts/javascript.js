@@ -10,8 +10,8 @@ fetch("file.json")
             <a href="${data["projects"][i]["link"]}" class="btn btn-primary" target="_blank"><i class="fa fa-brands fa-github me-2"></i>Github</a></div></div></div>`
         }
         for (let i=0; i < data["languages"].length;i++) {
-            insert_language.innerHTML += `<div class="card" style="width: 13rem;"><img src="${data["languages"][i]["image"]}" class="card-img-top" alt="...">
-            <h5 class="card-title text-center">${data["languages"][i]["text"]}</h5></div>`
+            insert_language.innerHTML += `<div class="col"><div class="card"><img src="${data["languages"][i]["image"]}" class="card-img-top" alt="...">
+            <div class="card-body"><h6 class="card-text text-center">${data["languages"][i]["text"]}</h6></div></div></div>`
         }
     })
 
