@@ -32,10 +32,11 @@ body{
     height: 80vh;
 }
 .background-main{
-    background: url(https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background: rgba(0, 0, 0, 0.7) url(https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-blend-mode: darken;
 }
 .nav-link:hover{
     background-color: #0d6efd !important;
