@@ -1,16 +1,6 @@
-const container_header = document.getElementById("container_header");
-const btns = container_header.getElementsByClassName("nav-link");
 let insert_project = document.getElementById("insert_project")
 let insert_language = document.getElementById("insert_language")
 
-
-for(let i=0;i<btns.length;i++){
-    btns[i].addEventListener("click", function() {
-        let current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace("active", "");
-        this.className += " active";
-    })
-}
 fetch("file.json")
     .then(res => res.json())
     .then(data => {
