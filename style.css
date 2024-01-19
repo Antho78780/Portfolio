@@ -32,8 +32,14 @@ body{
     height: 80vh;
 }
 .background-main{
-    background: url(https://img.freepik.com/photos-gratuite/main-humaine-tapant-clavier-ordinateur-nuit-generee-par-ia_188544-31050.jpg?w=1380&t=st=1705627815~exp=1705628415~hmac=117278e97f766a0c0b9543b968a7ecb9e9ce0b40aa9f8fb88d1927acbb32ab77);
+    background: url(https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+.nav-link:hover{
+    background-color: #0d6efd !important;
+}
+.nav-link{
+    border-radius: 5px;
 }
