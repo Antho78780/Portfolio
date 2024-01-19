@@ -1,7 +1,7 @@
 {
     "projects":[
         {
-            "text": "Pour ce projet j'ai créer un algorithme qui permet de maximiser les profits d'un client au bout de deux ans. J'ai utilisé des fonctions implémanté dans python comme IterTools.",
+            "text": "Pour ce projet j'ai créer un algorithme qui permet de maximiser les profits d'un client au bout de deux ans. J'ai utilisé le module IterTools pour réaliser cette algorithme.",
             "image": "images/capture_algo.png",
             "link": "https://github.com/Antho78780/Resolvez-des-problemes-en-utilisant-des-algorithmes-en-Python"
         },
@@ -31,7 +31,7 @@
             "link": "https://github.com/Antho78780/Transformez-une-maquette-en-site-web-avec-html-et-css"
         },
         {
-            "text": "Mon tout premier projet en javascript qui consiste à créer le BACK-END et le FRONT-END d'un site web E-commerce.L'utilisateur peut mettre des articles dans son panier pour ensuite les acheter.",
+            "text": "Mon tout premier projet en javascript qui consiste à créer le BACK-END et le FRONT-END d'un site web E-commerce. L'utilisateur peut mettre des articles dans son panier pour ensuite les acheter.",
             "image": "images/capture_e-commerce.png",
             "link": "https://github.com/Antho78780/Construisez-un-site-e-commerce-en-JavaScript"
         },
