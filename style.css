@@ -1,12 +1,11 @@
-a i {
-    font-size: 30px;
+footer a i {
+    font-size: 25px;
+    color: black;
+    padding: 5px;
 }
-
 .shadow-sm span{
     font-weight: bold;
 }
-
-
 a{
     text-decoration: none !important;
 }
