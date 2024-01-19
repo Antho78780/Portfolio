@@ -1,18 +1,12 @@
 a i {
     font-size: 30px;
-    color: grey;
 }
-footer a{
-    padding: 5px;
-    color: black;
-}
-.shadow-sm span, footer p{
+
+.shadow-sm span{
     font-weight: bold;
 }
 
-.nav-pills li{
-    margin: 5px;
-}
+
 a{
     text-decoration: none !important;
 }
@@ -22,9 +16,7 @@ a{
 .nav-link:hover{
     background-color: #0d6efd;
 }
-.nav-link{
-    color: white !important;
-}
+
 .card{
     margin: 10px;
 }
@@ -32,8 +24,17 @@ body{
     background-color: rgba(var(--bs-tertiary-bg-rgb)) !important;
 }
 .fst-italic{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
-#insert_project .card img{
-   
+.text-center a{
+    margin-top: 10px;
+}
+.container_main{
+    height: 80vh;
+}
+.background-main{
+    background: url(https://img.freepik.com/photos-gratuite/main-humaine-tapant-clavier-ordinateur-nuit-generee-par-ia_188544-31050.jpg?w=1380&t=st=1705627815~exp=1705628415~hmac=117278e97f766a0c0b9543b968a7ecb9e9ce0b40aa9f8fb88d1927acbb32ab77);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
